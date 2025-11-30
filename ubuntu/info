@@ -1,0 +1,9 @@
+Info
+To build an image use:
+	docker build -t <image_name> .
+E.g.
+	docker build -t essnusb-docker-fw .
+
+Since docker images take a lot of space,
+from time to time you have to give
+	docker system prune --all --force
