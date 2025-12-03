@@ -24,6 +24,24 @@ sudo apt install ./vscode.deb
 # Install docker extensions for vs code
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode.remote-server
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension ms-vscode.remote-explorer
+code --install-extension ms-vscode-remote.remote-wsl
 
 docker pull rigelessnusb/essnusb:latest
 #docker run -it rigelessnusb/essnusb:latest
+
+#install for root extensions (docker may run under root)
+sudo code --install-extension ms-azuretools.vscode-docker
+sudo code --install-extension ms-vscode-remote.remote-containers
+sudo code --install-extension ms-vscode-remote.remote-containers
+sudo code --install-extension ms-vscode-remote.remote-ssh
+sudo code --install-extension ms-vscode-remote.remote-ssh
+sudo code --install-extension ms-vscode.remote-server
+sudo code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+sudo code --install-extension ms-vscode.remote-explorer
+sudo code --install-extension ms-vscode-remote.remote-wsl
