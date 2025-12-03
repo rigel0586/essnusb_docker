@@ -20,3 +20,10 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io
 # Step 4: Install code
 wget -O vscode.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
 sudo apt install ./vscode.deb
+
+# Install docker extensions for vs code
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-vscode-remote.remote-containers
+
+docker pull rigelessnusb/essnusb:latest
+#docker run -it rigelessnusb/essnusb:latest
